@@ -3,7 +3,7 @@ import { Howl } from "howler";
 
 export default function Phonetic(props) {
   const soundSrc = `${props.phonetic.audio}`;
-
+  console.log(props);
   function callSound(src) {
     const sound = new Howl({
       src,
@@ -13,18 +13,22 @@ export default function Phonetic(props) {
   }
 
 
-
-  return (
-    <div className="Phonetic">
-        
-        <button onClick={() => callSound(soundSrc)}>
+  if (props.phonetic.audio && props.phonetic.text) {
+    return (
+      <div className="Phonetic">
           
-          Listen
-        </button>
-        
-      {props.phonetic.text}
-    </div>
-  );
+          <button onClick={() => callSound(soundSrc)}>
+            
+            Listen
+          </button>
+          
+        {props.phonetic.text}
+      </div>
+    );
+  } else {
+    return null;
+  }
+  
   
   
  
