@@ -9,3 +9,10 @@
 .App .link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 700px) {
+  .App footer {
+    padding: 0 20px 0;
+    font-size: 12px;
+  }
+}

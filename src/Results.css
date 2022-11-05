@@ -15,3 +15,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 700px) {
+  .Results .container {
+    padding: 30px;
+  }
+  .Results .container h2 {
+    font-size: 30px;
+  }
+}

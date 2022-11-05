@@ -20,3 +20,24 @@
   margin: 0 auto;
   max-width: 800px;
 }
+
+@media (max-width: 700px) {
+  .Dictionary .hero {
+    height: 450px;
+    padding: 50px 20px;
+  }
+  .Dictionary .hero h1 {
+    font-size: 56px;
+  }
+  .Dictionary .hero h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .Dictionary .hero .form-control {
+    max-width: 400px;
+  }
+  .Dictionary .hero p {
+    font-size: 13px;
+  }
+}
+
