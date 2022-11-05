@@ -14,14 +14,13 @@ export default function Meaning(props) {
                 <ul className="definition">
                   <li>
                     {definition.definition}
-                    <div className="example text-muted">
+                    <div className="example">
                       {definition.example}
                     </div>
                   </li>
                 </ul>
               </div>
             </div>
-          
           );
         })}
         <Synonyms synonyms={props.meaning.synonyms} />

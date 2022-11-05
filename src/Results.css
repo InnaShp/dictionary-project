@@ -11,3 +11,7 @@
 .Results .container h2 {
   font-size: 36px;
 }
+.Results .container .pronunciation {
+  display: flex;
+  justify-content: center;
+}
