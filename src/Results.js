@@ -31,5 +31,4 @@ export default function Results(props) {
  } else {
   return null;
  }
-  
 }

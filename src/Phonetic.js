@@ -4,6 +4,7 @@ import "./Phonetic.css";
 
 export default function Phonetic(props) {
   const soundSrc = `${props.phonetic.audio}`;
+
   function callSound(src) {
     const sound = new Howl({
       src,
@@ -11,7 +12,6 @@ export default function Phonetic(props) {
     });
     sound.play();
   }
-
 
   if (props.phonetic.audio && props.phonetic.text) {
     return (
@@ -25,10 +25,4 @@ export default function Phonetic(props) {
   } else {
     return null;
   }
-  
-  
-  
- 
-  
-  
 }

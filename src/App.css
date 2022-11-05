@@ -1,4 +1,11 @@
 .App {
   text-align: center;
+  color: #2b2418;
 }
-
+.App .link {
+  text-decoration: none;
+  color: #dfad2e;
+}
+.App .link:hover {
+  text-decoration: underline;
+}

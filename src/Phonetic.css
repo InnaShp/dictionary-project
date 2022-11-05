@@ -6,18 +6,18 @@
   background-color: #fff;
   border: 1px solid #e3e2df;
   color: #ecb632;
-  transition: 100ms all ease-in-out;
   padding: 5px 10px;
+  transition: 100ms all ease-in-out;
 }
 .Phonetic .sound:hover {
   background-color: #ecb632;
-  color: #fff;
   border-color: #ecb632;
+  color: #fff;
 }
 .Phonetic .text {
-  margin-top: 10px;
-  font-style: italic;
   color: #7a8389;
+  font-style: italic;
   font-weight: 300;
+  margin-top: 10px;
 }
 
