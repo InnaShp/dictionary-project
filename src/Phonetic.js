@@ -17,7 +17,7 @@ export default function Phonetic(props) {
     return (
       <div className="Phonetic">
         <button onClick={() => callSound(soundSrc)} className="sound">
-          <i class="fa-solid fa-volume-high"></i>
+          <i className="fa-solid fa-volume-high"></i>
         </button>
         <div className="text">{props.phonetic.text}</div> 
       </div>

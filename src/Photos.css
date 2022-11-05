@@ -1,0 +1,11 @@
+.Photos .container {
+  border-radius: 15px;
+  padding: 30px 30px 10px;
+  background: #fff;
+}
+.Photos .container .photo {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
