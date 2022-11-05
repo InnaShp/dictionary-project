@@ -5,8 +5,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <h1>Dictionary</h1>
-      <Dictionary />
+      <Dictionary defaultWord="sunset" />
       <footer>Coded by Inna Shpachynska</footer>
     </div>
   );

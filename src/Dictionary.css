@@ -1,0 +1,27 @@
+.Dictionary .hero {
+  background-image: url(./hero.jpg);
+  background-size: 110% 100%;
+  opacity: 0.9;
+  height: 600px;
+  color: rgba(249, 240, 228);
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.Dictionary .hero h1 {
+  font-size: 86px;
+  margin-bottom: 50px;
+}
+.Dictionary .hero h2 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+.Dictionary .hero .form-control {
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: 'Poppins', sans-serif;
+}
+
+
