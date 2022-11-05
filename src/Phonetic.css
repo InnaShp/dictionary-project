@@ -1,0 +1,19 @@
+.Phonetic .sound {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #e3e2df;
+  color: #ecb632;
+  transition: 100ms all ease-in-out;
+  padding: 5px 10px;
+}
+.Phonetic .sound:hover {
+  background-color: #ecb632;
+  color: #fff;
+  border-color: #ecb632;
+}
+.Phonetic .text {
+  margin-top: 10px;
+  font-style: italic;
+  color: #7a8389;
+}
+

@@ -1,3 +1,9 @@
 .Meaning {
   text-align: left;
 }
+.Meaning li {
+  list-style-type: "• ";
+}
+.Meaning .example {
+  font-style: italic;
+}

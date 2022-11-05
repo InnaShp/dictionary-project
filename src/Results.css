@@ -1,0 +1,14 @@
+.Results {
+  color: #2b2418;
+  font-family: 'Poppins', sans-serif;
+}
+.Results .container {
+  border-radius: 15px;
+  padding: 30px 120px;
+  background: #fff;
+  margin: 30px auto;
+  display: block;
+}
+.Results .container h2 {
+  font-size: 36px;
+}

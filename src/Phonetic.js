@@ -1,5 +1,6 @@
 import React from "react";
 import { Howl } from "howler";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   const soundSrc = `${props.phonetic.audio}`;
@@ -15,13 +16,10 @@ export default function Phonetic(props) {
   if (props.phonetic.audio && props.phonetic.text) {
     return (
       <div className="Phonetic">
-          
-          <button onClick={() => callSound(soundSrc)}>
-            
-            Listen
-          </button>
-          
-        {props.phonetic.text}
+        <button onClick={() => callSound(soundSrc)} className="sound">
+          <i class="fa-solid fa-volume-high"></i>
+        </button>
+        <div className="text">{props.phonetic.text}</div> 
       </div>
     );
   } else {
